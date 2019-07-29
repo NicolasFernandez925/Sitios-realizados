@@ -1,0 +1,937 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+ }
+ .linea-vertical{
+    border-left: 2px solid #7d00c1;
+    height: 160px;
+    position: absolute;
+    margin-top: 160px;
+    left:50%;
+   
+ }
+
+ html{
+    scroll-behavior:smooth;
+ }
+ 
+ header{
+    background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.6)), url(../img/pinos.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ }
+ 
+
+ 
+ header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ header ul{
+    display: flex;
+ }
+ 
+ header .logo{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: white;
+ }
+ 
+ header ul li a{
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    display: block;
+    
+ }
+  
+ 
+ header ul li a:hover{
+ 
+   color: #7d00c1;
+   text-decoration: underline;
+   transition-duration: 0.7s;
+   
+ }
+ 
+ header ul li{
+   
+    margin-right: 0px;
+    list-style: none;
+ }
+ 
+ a{
+ 
+ text-decoration: none;
+ 
+ margin: 0px 20px;
+ }
+ 
+ .contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+ }
+ 
+ 
+ #contenedor-titulo-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh 0;
+    max-width: 1580px; 
+    width: 100%;
+  
+ }
+ 
+ .titulo-header{
+   text-align: center;
+
+ }
+
+ .titulo-header h1{
+  
+   letter-spacing: 8px;
+   text-shadow: 0px 0px 6px #fff;
+ }
+ 
+ .titulo-header .letra-color-titulo{
+   color:#7d00c1;
+   margin-right: 8px;
+   font-size: 60px;
+ }
+ .titulo-header a, #porque-elejirnos a{
+    font-size: 16px;
+    padding: 16px;
+    color: white;
+    background: #7d00c1;
+    width: 145px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 10px;
+   
+    border-radius: 5px;
+    
+   
+ }
+ .titulo-header a{
+   border-radius: 30px;
+ }
+ .titulo-header a:hover {
+    background: rgb(54, 0, 68)  ;
+    color: white;
+    transition-duration: 0.9s;
+   
+ 
+ }
+ #conocenos .contenedor-sobremi a:hover{
+   box-shadow: 1px 1px 10px 1px rgb(216, 216, 216);
+   background: rgb(224, 224, 224);
+   transition-duration: 0.9s;
+  
+
+}
+
+ h1{
+    margin: 0;
+    font-size: 60px;
+    color: white;
+ }
+ 
+ h2{
+    color:white;
+ }
+ 
+ h3{
+    margin-bottom: 70px;  
+    text-align: center;
+    font-weight: normal;
+    font-size: 55px;
+ }
+
+ #conocenos{
+    padding: 60px;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6e23af+0,b423e0+100 */
+background: #6e23af; /* Old browsers */
+background: -moz-linear-gradient(top,  #6e23af 0%, #b423e0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #6e23af 0%,#b423e0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #6e23af 0%,#b423e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e23af', endColorstr='#b423e0',GradientType=0 ); /* IE6-9 */
+
+ }
+ 
+ #conocenos h3{
+    margin-bottom: 40px;
+    padding-bottom: 60px;
+    color: #fff;
+    letter-spacing: 2px;
+ }
+ 
+ #conocenos .contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .contenedor-sobremi .info-elejirnos{
+  
+   width: 45%;
+ 
+ }
+ #conocenos .contenedor-sobremi a{
+   margin-top: 15px;
+   display: inline-block;
+   font-weight: bold;
+   padding: 18px 10px;
+   background: #ffffff;
+   letter-spacing: 1px;
+   margin-left: 0px;
+   box-shadow: 1px 1px 10px 1px white;
+}
+
+ .contenedor-sobremi .info-elejirnos p{
+  color:rgb(216, 216, 216);
+   width: 100%;
+   
+ 
+ }
+
+ .imagen-elejirnos .compu{
+  
+   width: 100% ;
+   
+}
+.contenedor-sobremi .imagen-elejirnos{
+   width: 45%;
+ 
+}
+ 
+ /* SERVICIOS */
+
+ 
+ .contenedor-servicios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ 
+
+ 
+ .servicio{
+    
+    width: 24%;
+    text-align: center;
+    padding: 60px 30px;
+    margin-bottom: 28px;
+    border-radius: 10px;
+    box-shadow: 0px 90px 160px 0px rgba(0,0,0,.1);
+
+ }
+
+
+ .servicio h4{
+    font-weight: 100;
+   color:#7d00c1;
+   font-size: 20px;
+   margin: 0;
+   padding: 15px;
+ }
+ 
+ .servicio p{
+  
+    font-size: 14px;
+    columns: #666;
+    line-height: 20px;
+    margin-bottom: 20px;
+    height: 195px;
+  
+ }
+ .icono-servicio{
+   
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 20px 0px;
+   }
+ 
+ 
+ /*SECCION PORTAFOLIO*/
+ 
+ #portafolio h4{
+    font-size: 20px;
+    color: #7d00c1;
+ }
+ hr{
+    background: rgba(255, 255, 255, 0.5);
+    height: 1px;
+    width: 50%;
+    border: none;
+ }
+ #portafolio{
+    background:  #f1f1f1 ;
+    padding: 100px;
+    margin-top: 80px;
+    text-align: center;
+ 
+ }
+ 
+ button.owl-prev, button.owl-next {
+    font-size: 40px !important;
+ }
+ 
+ .owl-theme{
+    opacity: 0.7;  
+ }
+ .owl-carousel, .owl-carousel.owl-loaded {
+   height: 180px;
+}
+.owl-carousel img{
+   width: 80px;
+   height: 140px;
+}
+
+ 
+ 
+ /*PORQUE ELEJIRNOS*/
+ #porque-elejirnos h3{
+   color:#fff;
+   
+}
+ #porque-elejirnos{
+    background-image: url(../img/porque-elejirnos.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+ }
+ #porque-elejirnos .contenedor-porque-elejirnos #negro{
+   background:rgba(109, 0, 233, 0.8);
+
+}
+#porque-elejirnos .contenedor-porque-elejirnos #violeta{
+   top: -90px;
+   position: relative;
+   background:rgba(204, 0, 187, 0.548);
+
+}
+#porque-elejirnos .contenedor-porque-elejirnos #blanco{
+   box-shadow: 1px 1px 10px 1px rgb(216, 216, 216);
+
+}
+
+#porque-elejirnos .contenedor-porque-elejirnos .item{
+padding: 40px 20px;
+
+}
+  
+ 
+ #porque-elejirnos{
+    padding-top: 70px;
+
+ }
+ 
+ .icon-porque-elejirnos{
+    width: 70px;
+    height: 50px;
+ }
+
+ 
+ .contenedor-porque-elejirnos ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    color:#fff;
+
+ }
+ 
+ #porque-elejirnos .contenedor-porque-elejirnos ul {
+  padding: 0px;
+}
+.contenedor-porque-elejirnos ul li:nth-child(2){
+   color:white;
+   font-weight: 800;
+   text-align: center;
+ }
+ .contenedor-porque-elejirnos ul li:nth-child(1){
+   text-align: center;
+ }
+ .contenedor-porque-elejirnos ul li:nth-child(3){
+   line-height:31px;
+ }
+ .contenedor-porque-elejirnos{
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ 
+ /*QUE ESPERAS*/
+ 
+ .contenedor-que-esperas{
+ background: black;
+ padding: 60px;
+ text-align: center;
+ 
+ }
+
+
+ .contenedor-que-esperas h5{
+   color:#7d00c1;
+   font-size: 25px;
+ }
+ 
+ #menu img{
+    display: none;
+    float: right;
+    width:45px;
+    height: 40px;
+    margin-right: 0px;
+    cursor: pointer;
+   
+ }
+/*FOOTER*/
+
+
+#footer{
+   background:black;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+}
+
+.copyrigth{
+  
+   width: 100%;
+  
+   text-align: center;
+   padding: 40px 0px;
+   background:rgb(36, 36, 36);
+}
+
+#footer .contenido-footer h5{
+  
+   color: white;
+   display: flex;
+   
+   
+}
+.contenido-footer{
+   padding: 90px 0px;
+   margin: auto;
+   width: 70%;
+   
+   
+}
+#footer .contenido-footer p, #footer h4{
+   color: rgba(255, 255, 255, 0.377);
+  
+}
+
+
+ 
+ /*FORMULARIO*/
+ 
+ #formulario .overlay h3{
+    
+         padding: 80px 0px;
+          margin: 0px;
+          font-size: 55px;
+          color:white;
+      
+ }
+ .info-contactos{
+   display: flex;
+   flex-direction: column;
+   background: rgba(0,0,0,.8);
+   margin: 0px;
+   width: 50%;
+   text-align: center;
+ }
+ .info-contactos h4{
+    color: white;
+ }
+ 
+ .redes-sociales {
+    padding: 100px;
+    justify-content:space-around;
+    display: flex;
+ }
+ .redes-sociales img{
+    
+    width: 35px;
+    height: 35px;
+ }
+ 
+ .envia-email p, .podes-comunicarte p{
+    color: white;
+    margin: auto;
+ }
+ 
+ .podes-comunicarte h5, .envia-email h5{
+    font-size: 13px;
+    color:#e0e0e0;
+    margin: 0px;
+    padding: 30px;
+ }
+ 
+ form label{
+    color: white;
+ }
+ 
+ .contenedor-flex-formularios{
+    align-items: center;
+    display: flex;
+    justify-content: space-around; 
+    height: 900px;
+ }
+ .contenedor-formulario{
+    width: 50%;
+    display: flex;
+   background: rgba(0,0,0,.4);
+    flex-direction: column;
+    padding: 65px;
+}
+   
+ 
+ 
+ #formulario{
+    margin-top: 0px;
+ }
+ 
+ 
+ input[type="text"],input[type="email"]{
+    color: white;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 16px;
+    background: transparent;
+    border-bottom: 1px solid #7d00c1;
+    margin:40px auto;
+ }
+ 
+ textarea{
+    font-family:Arial,Sans-serif;
+    color: white;
+    width: 100%;
+    background: transparent;
+    display: block;
+    border:none; 
+    border-bottom: 1px solid #7d00c1;
+    margin: 70px auto;
+    padding: 10px;
+ }
+ input[type="submit"]{
+    display: block;
+    padding: 12px;
+    margin-top: 80px;
+    margin: auto;
+    border:none;
+    font-size: 16px;
+    color: white;
+    background: #7d00c1;
+   
+ }
+ 
+ input[type="submit"]:hover{
+   
+    color:  #7d00c1;
+    border-radius: 3px;
+    transition-duration: 0.9s;
+    width: 100%;
+    background:  rgba(0,0,0,.6);
+    border-bottom: #7d00c1;
+    border-radius: 3px;
+    transition-duration: 0.9s;
+ }
+ 
+ 
+ #formulario{
+ background: url(../img/bosque.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+ 
+ }
+
+ #formulario .contenedor-flex-formularios .info-contactos h5{
+   color:#7d00c1;
+ }
+
+ .linea-form{
+    height: 1px;
+    background: rgba(255, 255, 255, .1);
+ }
+ 
+ .overlay{
+ 
+    background: rgba(0,0,0,.8);
+ }
+ 
+
+ 
+ /*MEDIA QUERIS PARA CELULARES*/
+ 
+ @media (max-width: 800px){
+   .owl-carousel img{
+      width: 80px;
+      height: 140px;
+   }
+   .contenido-footer {
+     
+      width: 80%;
+
+      margin-left: 60px;
+  }
+    .redes-sociales{
+       height: 50vh;
+    }
+
+   .podes-comunicarte h5, .envia-email h5 {
+     
+      padding: 15px;
+  }
+
+   .contenedor-formulario{
+      padding: 20px;
+   }
+    #formulario{
+    overflow: hidden;
+    }
+     .info-contactos{
+       width: 100%;
+       padding: 20px;
+      }
+    
+     
+    #formulario .overlay h3{
+      font-size: 29;
+      margin-bottom: 80%;
+  }
+    
+    
+ 
+    .contenedor-flex-formularios .contenedor-formulario{
+       width: 100%;
+    }
+    .contenedor-flex-formularios{
+       flex-direction: column;
+    }
+    #menu img{
+       display: block;
+    }
+    #menu .logo{
+       margin-left: 0px;
+    }
+    header nav{
+       position: absolute;
+       left: 0;
+       top: 70px;
+       background: rgb(99, 0, 112);
+       width: 100%;
+       display: none;
+       
+    }
+   .lista-menu ul{
+     
+    padding: 12;
+   }
+       
+ 
+    header nav ul{
+       flex-direction: column;
+      
+    }
+ 
+    header nav ul li{
+       margin-bottom: 17px;
+       padding: 0px;
+       
+       
+    }
+    header nav ul li a{
+       padding: 7px;
+       color: white;
+    }
+ 
+    header {
+       height: 100vh;
+    } 
+    .titulo-header h1{
+       
+       font-size: 35px;
+         
+      }
+      #conocenos {
+         padding: 20px;
+      }
+      #conocenos .contenedor-sobremi {
+       
+       flex-direction: column;
+   }
+   .imagen-elejirnos .compu {
+       width: 100%;
+     }
+     .contenedor-sobremi .imagen-elejirnos {
+      width: 100%;
+  }
+ 
+    main{
+       margin-top: 0px;
+    }
+   
+    #conocenos h3 {
+      padding: 50px 0px;
+   
+     font-size: 35px;
+ }
+      #conocenos .info-elejirnos {
+       margin-top: 0px;
+       width: 100%;
+   }
+   #conocenos .info-elejirnos {
+    font-size: 10px;
+   
+  }
+   #servicios h3{
+    
+       font-size: 35px;
+   
+   }
+ 
+   .contenedor-servicios {
+   
+    flex-direction: column;
+ }
+   .contenedor-servicios .servicio{
+ 
+       padding: 37px 30px 40px 20px;
+       width: 85%;
+   }
+   .servicio .icono-servicio{
+      padding: 0px;
+       margin-top: 50px;
+   }
+   #portafolio h4{
+    font-size: 16px;
+   }
+   #portafolio h3{
+    font-size: 22px;
+   }
+   #portafolio {
+    
+    padding: 20px 0px;
+ }
+ .contenedor-porque-elejirnos {
+   
+    flex-direction: column;
+    padding: 0px;
+ }
+ 
+ .contenedor-porque-elejirnos .item {
+     /* width: 100%; */
+     margin-bottom: 40px;
+   
+ }
+ #porque-elejirnos .contenedor-porque-elejirnos #violeta{
+  
+   position: static;
+  
+
+}
+ .item ul{
+   
+       padding: 0px;
+   
+ }
+ .contenedor-que-esperas h3{
+    font-size: 22px;
+ 
+ }
+ #porque-elejirnos h3{
+    
+     margin-bottom: 40px;
+ }
+ .contenedor-que-esperas{
+    margin-top: 0px;
+ }
+ #servicios {
+    margin-top: 0px;
+ }
+ 
+ #porque-elejirnos h3{
+    font-size: 35px;
+ }
+ #formulario h3{
+    padding: 80px 0px;
+       margin: 0px;
+       font-size: 30px;
+       color:white;
+   }
+ 
+ form input[type="text"],input[type="email"], textarea{
+     width: 100%;
+ }
+ #formulario {
+    margin-top: 0px;
+   
+ }
+ #contenedor-titulo-flex .titulo-header h1{
+      font-size: 26px;
+ }
+ #contenedor-titulo-flex .titulo-header h2{
+    padding: 20px;
+   font-size: 20px;
+}
+ .titulo-header .letra-color-titulo{
+   color:#7d00c1;
+   
+   font-size: 40px;
+ }
+   
+ .linea-vertical{
+   border-left: 2px solid #7d00c1;
+   height: 150px;
+   position: absolute;
+   margin-top: 200px;
+   left:50%;
+  
+}
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* MEDIA QUERIS PARA TABLETS*/
+ 
+ @media (min-width: 600px) and (max-width:800px){
+   .contenido-footer {
+       width: 80%;
+       margin-left: 14%;
+   }
+
+   .info-contactos{
+      padding: 40px;
+   }
+  
+   #formulario .overlay h3 {
+      
+      margin-bottom: 35%;
+   }
+   .podes-comunicarte h5, .envia-email h5 {
+     
+      padding: 23px;
+  }
+    header{
+       height: 80vh;
+    }
+ 
+    #conocenos {
+     
+      padding-bottom: 30px;
+  }
+    #conocenos .contenedor-sobremi {
+ 
+       flex-direction: column;
+       text-align: center;
+       width: 100%;
+     
+   }
+   #conocenos .info-elejirnos{
+    margin-top: 0px;
+   
+    width: 100%;
+  
+  }
+  .contenedor-sobremi .imagen-elejirnos  {
+    margin-left: 0px;
+ 
+ }
+ 
+.imagen-elejirnos .compu {
+    width: 100%;
+    height: 33vh;
+}
+ main h3{
+    margin: 0px;
+ }
+ main{
+    margin: 0px;
+ }
+ .contenedor-servicios{
+    flex-direction: column;
+ }
+ .servicio p {
+   
+    height: 130px;
+ }
+ .contenedor-servicios .servicio{
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 70px;
+    
+ }
+ #servicios {
+  
+   padding-top: 70px;
+}
+ .servicio h4{
+    margin-bottom: 50px;
+ }
+  #servicios h3{
+   margin-bottom: 70px;
+  }
+  .owl-carousel {
+   
+    margin-top: 70px;
+ }
+ #portafolio h3{
+    font-size: 30px;
+ }
+ .contenedor-porque-elejirnos{
+    flex-direction: column;
+ }
+ .contenedor-que-esperas h3{
+    font-size: 35px;
+ }
+ #contenedor-titulo-flex .titulo-header h1{
+   font-size: 70px;
+}
+#contenedor-titulo-flex .titulo-header h2{
+ padding: 20px;
+font-size: 30px;
+}
+.titulo-header .letra-color-titulo {
+  
+   font-size: 70px;
+   
+}
+.linea-vertical{
+   border-left: 2px solid #7d00c1;
+   height: 150px;
+   position: absolute;
+   margin-top: 150px;
+   left:50%;
+  
+}
+#formulario .contenedor-flex-formularios .redes-sociales{
+   height: 20vh;
+
+}
+ }
+ 
+ 
+
